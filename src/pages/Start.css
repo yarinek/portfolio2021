@@ -1,0 +1,18 @@
+.start {
+    text-align: center;
+}
+
+.start__text{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: yellow;
+}
+
+.start__text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

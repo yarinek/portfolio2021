@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: 'Arcade';
+  src: local('Arcade'), url('./fonts/arcade/arcade.TTF');
+  font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Arcade';
+  margin: 0;
+  background-image: linear-gradient(
+      to bottom, rgba(9, 0, 59, 0.6), rgba(34, 0, 30, 0.55)
+    ), url("images/bg.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blink {
+  animation: blinkerslow 1.5s linear infinite;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@keyframes blinkerslow {
+  50% {
+      opacity: 0.4;
   }
 }
