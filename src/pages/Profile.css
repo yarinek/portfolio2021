@@ -1,0 +1,145 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*Profile Info*/
+.profile__info{
+    border: 2px solid rgba(250,95,105,.75);
+    display: flex;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.profile__name{
+    padding: 20px;
+    color: yellow;
+    font-size: 200%;
+}
+
+.profile__infoLeft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile__infoRight{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile__description{
+    padding: 20px;
+    font-size: 150%;
+    color: aqua;
+}
+
+
+.profile__photo{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.profile__photo>img{
+    object-fit: contain;
+}
+
+.profile__icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: rgba(250,95,105,.75);
+}
+
+/*Current Page*/
+.profile__currentPage{
+    border: 2px solid rgba(250,95,105,.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.profile__currentPage>h2{
+    padding: 10px;
+    color: yellow;
+}
+
+.profile__currentPage>p{
+    padding: 10px;
+    color: aqua;
+    font-size: 25px;
+}
+
+.returnToMenu{
+    margin-top: 15px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;
+    border-top: 3px solid yellow;
+}
+
+.returnToMenu:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*MENU*/
+
+.profile__menu{
+    flex: 0.9;
+    border: 2px solid rgba(250,95,105,.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.profile__menu>h2{
+    color: yellow;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.menu__navbar{
+    list-style-type: none;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu__navbar>li{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.menu__navbar>li:hover{
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -4,6 +4,11 @@
   font-weight: normal;
 }
 
+.app{
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-family: 'Arcade';
   margin: 0;
