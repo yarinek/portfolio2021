@@ -4,6 +4,11 @@ import avatar from '../images/avatar.png'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import CurrentPage from '../components/CurrentPage';
+import Menu from '../components/Menu';
+import About from '../components/About';
+import Connect from '../components/Connect';
+import Projects from '../components/Projects';
 
 function Profile() {
     return (
@@ -27,25 +32,11 @@ function Profile() {
                     </div>
                 </div>
 
-                <div className="profile__currentPage">
-                    <h2>Current Level</h2>
-                    <p>About</p>
-                    <div className='returnToMenu'>
-                        <p className='blink'>Return to Menu</p>
-                    </div>
-                </div>
+                <CurrentPage />
             </div>
 
             <div className="profile__down">
-                <div className="profile__menu">
-                    <h2>Select Level</h2>
-                    <nav className='menu__navbar'>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
-                    </nav>
-                    <div className='restart'>Restart</div>
-                </div>
+                <Projects />
             </div>
 
         </div>

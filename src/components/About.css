@@ -1,0 +1,63 @@
+.about{
+    border: 2px solid rgba(250,95,105,.75);
+    display: flex;
+    background-color: black;
+    opacity: 0.75;
+    color: yellow;
+    width: 120vh;
+}
+
+
+/*Left Side*/
+.about__left{
+    flex: 0.5;
+}
+
+
+
+.about__playerInfo{
+    text-align: center;
+    padding: 20px;
+}
+
+.about__playerInfo>h2{
+    text-decoration: underline;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.about__playerDescription{
+    text-align: center;
+    font-size: 13px;
+}
+
+/*Right Side*/
+
+.about__right{
+    flex: 0.5;
+}
+
+.about__playerBrief{
+    text-align: center;
+    list-style-position: inside;
+    padding: 20px;
+}
+
+.about__playerBrief>h2{
+    text-decoration: underline;
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+.about__powerUps{
+    text-align: center;
+}
+
+.about__skills{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.violet{
+    color: violet;
+}

@@ -21,6 +21,7 @@
     display: flex;
     background-color: black;
     opacity: 0.75;
+    margin-bottom: 20px;
 }
 
 .profile__name{
@@ -71,75 +72,3 @@
     color: rgba(250,95,105,.75);
 }
 
-/*Current Page*/
-.profile__currentPage{
-    border: 2px solid rgba(250,95,105,.75);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    opacity: 0.75;
-}
-
-.profile__currentPage>h2{
-    padding: 10px;
-    color: yellow;
-}
-
-.profile__currentPage>p{
-    padding: 10px;
-    color: aqua;
-    font-size: 25px;
-}
-
-.returnToMenu{
-    margin-top: 15px;
-    padding-top: 20px;
-    font-size: 25px;
-    color: white;
-    border-top: 3px solid yellow;
-}
-
-.returnToMenu:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-/*MENU*/
-
-.profile__menu{
-    flex: 0.9;
-    border: 2px solid rgba(250,95,105,.75);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    opacity: 0.75;
-}
-
-.profile__menu>h2{
-    color: yellow;
-    padding: 20px;
-    text-decoration: underline;
-}
-
-.menu__navbar{
-    list-style-type: none;
-    color: yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.menu__navbar>li{
-    padding: 10px;
-    font-size: 25px;
-}
-
-.menu__navbar>li:hover{
-    color: aqua;
-    text-decoration: underline;
-    cursor: pointer;
-}

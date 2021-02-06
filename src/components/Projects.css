@@ -1,0 +1,88 @@
+.projects__select {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+.projects__select:hover {
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+}
+
+.projects__select:hover>h3{
+    color: cyan;
+}
+
+.projects__select:hover .projects__item {
+    display: block;
+}
+
+
+
+.projects__item {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid yellow;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.projects__item:last-child {
+    border-bottom: 1px solid yellow;
+}
+
+/*Mission*/
+.projects{
+    width: 90vw;
+}
+.projects__mission{
+    margin-top: 10px;
+    border: 2px solid rgba(250,95,105,.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 0.75;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+.projects__missionDown{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects__missionPhoto>img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projects__missionLeft{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.projects__missionLeft>button{
+    margin-top: 10px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+ }
+
+.projects__missionRight{
+    padding: 20px;
+ }
+
+ .projects__missionRight>p{
+    color: white;
+    padding: 10px;
+ }
